@@ -18,6 +18,7 @@ Classes: `insolvency`, `cyber_attack`, `fire`, `natural_disaster`, `labor_strike
 
 ```bash
 pip install -r requirements.txt
+python data/make_sample_data.py              # builds data/sample_news.csv
 
 python src/baseline.py
 python src/finetune_bert.py --epochs 3        # use a GPU if you have one (Colab works fine)
